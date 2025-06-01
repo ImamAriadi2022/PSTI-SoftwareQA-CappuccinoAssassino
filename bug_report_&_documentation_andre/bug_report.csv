@@ -1,13 +1,13 @@
-﻿Halaman,Menu,Deskripsi Bug,Dokumentasi
-Home,Product,Halaman kosong (blank) saat diklik,Screenshot
-Home,Careers,Halaman kosong (blank) saat diklik,Screenshot
-Home,Press Media,Halaman kosong (blank) saat diklik,Screenshot
-Home,Our Blog,Halaman kosong (blank) saat diklik,Screenshot
-Home,Contact Us,Halaman kosong (blank) saat diklik,Screenshot
-Home,Privacy Policy,Halaman kosong (blank) saat diklik,Screenshot
-Home,Support,Halaman kosong (blank) saat diklik,Screenshot
-Home,Fitur,Halaman kosong (blank) saat diklik,Screenshot
-Home,FAQ,Halaman kosong (blank) saat diklik,Screenshot
-Home,Bantuan,Halaman kosong (blank) saat diklik,Screenshot
+﻿Halaman,Menu,Deskripsi Bug
+Home,Product,Halaman kosong (blank) saat diklik
+Home,Careers,Halaman kosong (blank) saat diklik
+Home,Press Media,Halaman kosong (blank) saat diklik
+Home,Our Blog,Halaman kosong (blank) saat diklik
+Home,Contact Us,Halaman kosong (blank) saat diklik
+Home,Privacy Policy,Halaman kosong (blank) saat diklik
+Home,Support,Halaman kosong (blank) saat diklik
+Home,Fitur,Halaman kosong (blank) saat diklik
+Home,FAQ,Halaman kosong (blank) saat diklik
+Home,Bantuan,Halaman kosong (blank) saat diklik
 Petengoran,Dashboard,"Endpoint menggunakan '/dashboard', tidak konsisten dengan lainnya seperti '/kalimantan' dan '/sabesi'
-",Screenshot
+"
