@@ -6,11 +6,11 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 ---
 
 ## 📌 Tim Penguji  
-- Imam Ariadi (Koordinator, Pendahuluan & Kesimpulan)  
-- Azka (Deskripsi Sistem & Lingkungan Pengujian)  
+- Imam Ariadi (Koordinator, Pengujian otomasi dashboard navigasi dan tombol download)  
+- Azka (Deskripsi Sistem, Penguji otomasi, UI Testing, dan Navigation Testing)  
 - Ale (Manual Testing & Test Case)  
 - Faqih (Responsiveness & Cross-Browser Testing)  
-- Andre (Automated Testing & Bug Report)
+- Aloysius Andre N. H. M. (Automated Testing & Bug Report)
 
 ---
 
@@ -26,12 +26,12 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 
 | Bagian                           | Penanggung Jawab | Link Dokumentasi / File          |
 |---------------------------------|------------------|---------------------------------|
-| Pendahuluan, Tujuan, Kesimpulan | Imam             | [Laporan Pendahuluan & Kesimpulan](LINK_DOC_IMAM) |
-| Deskripsi Sistem & Lingkungan   | Azka             | [Deskripsi Sistem](LINK_DOC_AZKA)                |
-| Test Plan & Test Case Manual    | Ale              | [Test Case Manual](LINK_DOC_ALE)                  |
-| Responsiveness & Cross-Browser  | Faqih            | [Hasil Responsiveness](LINK_DOC_FAQIH)            |
-| Automated Testing & Bug Report  | Andre            | [Bug Report & Automasi](LINK_DOC_ANDRE)           |
-| Laporan full version                       | Semua            | [Lampiran Lengkap](LINK_LAMPIRAN)                  |
+| UI dan Card rendering Dashbord dan halaman download | Imam             | [UI dan Card rendering Dashbord dan halaman download](https://drive.google.com/file/d/1eJkcl_K06fNl3JDvciVui5cdd1kz8L12/view?usp=sharing) |
+| Tabel pengujian tampilan dan navigasi (responsive)  | Azka             | [Tabel pengujian tampilan dan navigasi](https://docs.google.com/spreadsheets/d/1DX0mC8nfeH5n24itAdtZEnBuNX9IBJz7il7pLXlpDFg/edit?gid=0#gid=0)                |
+| Form & Validasi  | Ale              | [Tabel pengujian input form](https://docs.google.com/spreadsheets/d/1intYL9rQLqzdAhwU4iNdI0d-_VlWMMUtBp7Nkrvcf-s/edit?usp=sharing)                  |
+| Kompatibilitas Browser  | Faqih            | [Laporan cross-browser & responsive testing](LINK_DOC_FAQIH)            |
+| Bug Hunter & Dokumentasi  | Andre            | [Laporan bug lengkap + saran perbaikan](LINK_DOC_ANDRE)           |
+| Laporan full version                       | Semua            | [Lampiran Lengkap](https://docs.google.com/document/d/192Gv3a3DJxLqIDMMazt0a27H8FjmIuQEaI0Q39vx5Ow/edit?usp=sharing)                  |
 
 ---
 
@@ -53,9 +53,9 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 ---
 
 ## 📞 Kontak Tim  
-- Imam Ariadi (Koordinator) – imamariadi775@gmail.com  
-- Azka – [email_azka@example.com]  
-- Ale – [email_ale@example.com]  
-- Faqih – [email_faqih@example.com]  
-- Andre – [email_andre@example.com]  
+- Imam Ariadi – imamariadi775@gmail.com  
+- Muhammad Azka Naufal – m.azka.naufal24122003@gmail.com
+- Ale – [pratama051003@gmail.com]  
+- Faqih – [muhammadfaqihhmwn@gmail.com]  
+- Aloysius Andre N. H. M. – [aloysiusandrenhm@gmail.com]  
 
