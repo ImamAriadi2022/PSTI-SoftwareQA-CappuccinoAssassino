@@ -31,11 +31,6 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 | Form & Validasi  | Ale              | [Tabel pengujian input form](LINK_DOC_ALE)                  |
 | Kompatibilitas Browser  | Faqih            | [Laporan cross-browser & responsive testing](LINK_DOC_FAQIH)            |
 | Bug Hunter & Dokumentasi  | Andre            | [Laporan bug lengkap + saran perbaikan](LINK_DOC_ANDRE)           |
-| Pendahuluan, Tujuan, Kesimpulan | Imam             | [Laporan Pendahuluan & Kesimpulan](LINK_DOC_IMAM) |
-| Deskripsi Sistem, Lingkungan Pengujian, UI Testing, dan Navigation Testing  | Azka             | [Deskripsi Sistem](LINK_DOC_AZKA)                |
-| Test Plan & Test Case Manual    | Ale              | [Test Case Manual](LINK_DOC_ALE)                  |
-| Responsiveness & Cross-Browser  | Faqih            | [Hasil Responsiveness](LINK_DOC_FAQIH)            |
-| Automated Testing & Bug Report  | Andre            | [Bug Report & Automasi](LINK_DOC_ANDRE)           |
 | Laporan full version                       | Semua            | [Lampiran Lengkap](LINK_LAMPIRAN)                  |
 
 ---
