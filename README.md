@@ -31,7 +31,7 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 | Test Plan & Test Case Manual    | Ale              | [Test Case Manual](LINK_DOC_ALE)                  |
 | Responsiveness & Cross-Browser  | Faqih            | [Hasil Responsiveness](LINK_DOC_FAQIH)            |
 | Automated Testing & Bug Report  | Andre            | [Bug Report & Automasi](LINK_DOC_ANDRE)           |
-| Lampiran                       | Semua            | [Lampiran Lengkap](LINK_LAMPIRAN)                  |
+| Laporan full version                       | Semua            | [Lampiran Lengkap](LINK_LAMPIRAN)                  |
 
 ---
 
