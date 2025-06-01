@@ -28,7 +28,7 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 |---------------------------------|------------------|---------------------------------|
 | UI dan Card rendering Dashbord dan halaman download | Imam             | [UI dan Card rendering Dashbord dan halaman download](https://drive.google.com/file/d/1eJkcl_K06fNl3JDvciVui5cdd1kz8L12/view?usp=sharing) |
 | Tabel pengujian tampilan dan navigasi (responsive)  | Azka             | [Tabel pengujian tampilan dan navigasi](https://docs.google.com/spreadsheets/d/1DX0mC8nfeH5n24itAdtZEnBuNX9IBJz7il7pLXlpDFg/edit?gid=0#gid=0)                |
-| Form & Validasi  | Ale              | [Tabel pengujian input form](LINK_DOC_ALE)                  |
+| Form & Validasi  | Ale              | [Tabel pengujian input form](https://docs.google.com/spreadsheets/d/1intYL9rQLqzdAhwU4iNdI0d-_VlWMMUtBp7Nkrvcf-s/edit?usp=sharing)                  |
 | Kompatibilitas Browser  | Faqih            | [Laporan cross-browser & responsive testing](LINK_DOC_FAQIH)            |
 | Bug Hunter & Dokumentasi  | Andre            | [Laporan bug lengkap + saran perbaikan](LINK_DOC_ANDRE)           |
 | Laporan full version                       | Semua            | [Lampiran Lengkap](https://docs.google.com/document/d/192Gv3a3DJxLqIDMMazt0a27H8FjmIuQEaI0Q39vx5Ow/edit?usp=sharing)                  |
@@ -55,7 +55,7 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 ## 📞 Kontak Tim  
 - Imam Ariadi – imamariadi775@gmail.com  
 - Muhammad Azka Naufal – m.azka.naufal24122003@gmail.com
-- Ale – [email_ale@example.com]  
+- Ale – [pratama051003@gmail.com]  
 - Faqih – [muhammadfaqihhmwn@gmail.com]  
 - Aloysius Andre N. H. M. – [aloysiusandrenhm@gmail.com]  
 
