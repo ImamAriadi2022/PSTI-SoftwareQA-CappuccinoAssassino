@@ -26,7 +26,7 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 
 | Bagian                           | Penanggung Jawab | Link Dokumentasi / File          |
 |---------------------------------|------------------|---------------------------------|
-| UI dan Card rendering Dashbord dan halaman download | Imam             | [UI dan Card rendering Dashbord dan halaman download](LINK_DOC_IMAM) |
+| UI dan Card rendering Dashbord dan halaman download | Imam             | [UI dan Card rendering Dashbord dan halaman download](https://drive.google.com/file/d/1eJkcl_K06fNl3JDvciVui5cdd1kz8L12/view?usp=sharing) |
 | Tabel pengujian tampilan dan navigasi (responsive)  | Azka             | [Tabel pengujian tampilan dan navigasi](https://docs.google.com/spreadsheets/d/1DX0mC8nfeH5n24itAdtZEnBuNX9IBJz7il7pLXlpDFg/edit?gid=0#gid=0)                |
 | Form & Validasi  | Ale              | [Tabel pengujian input form](LINK_DOC_ALE)                  |
 | Kompatibilitas Browser  | Faqih            | [Laporan cross-browser & responsive testing](LINK_DOC_FAQIH)            |
