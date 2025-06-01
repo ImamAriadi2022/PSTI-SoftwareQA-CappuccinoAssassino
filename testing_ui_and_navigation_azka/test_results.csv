@@ -1,0 +1,51 @@
+Page,Components,Action,Expected Result,Status,Note
+Home,Page Title,Check page title,Title should contain 'MicroClimate' or appropriate app name,FAIL,Judul halaman kosong atau tidak sesuai: 'React App'
+Home,Navbar,Verify navbar visibility,Navbar should be visible,PASS,Elemen 'Navbar' terlihat
+Home,Logo,Check logo presence,Logo should be present in DOM,PASS,Elemen 'Logo' ada di DOM
+Home,Navigation Links,Count navigation links,Navigation links should be present,PASS,Ditemukan 4 elemen 'Navigation Links'
+Home,Home Link,Check home link,Home link should be present,PASS,Elemen 'Home Link' ada di DOM
+Home,Hero Section,Verify hero section visibility,Hero section should be visible,PASS,Elemen 'Hero Section' terlihat
+Home,Category Section,Verify category section visibility,Category section should be visible,PASS,Elemen 'Category Section' terlihat
+Home,Core Features Section,Verify core features visibility,Core features section should be visible,PASS,Elemen 'Core Features Section' terlihat
+Home,Card Features,Count card features,Card features should be present,PASS,Ditemukan 49 elemen 'Card Features'
+Home,Alat Section,Verify alat section visibility,Alat section should be visible,PASS,Elemen 'Alat Section' terlihat
+Home,Launch Section,Verify launch section visibility,Launch section should be visible,PASS,Elemen 'Launch Section' terlihat
+Home,FAQ Section,Verify FAQ section visibility,FAQ section should be visible,PASS,Elemen 'FAQ Section' terlihat
+Home,Footer,Verify footer visibility,Footer should be visible,PASS,Elemen 'Footer' terlihat
+Home,Scroll to Top Button,Check scroll button presence,Scroll to top button should be present,PASS,Elemen 'Scroll to Top Button' ada di DOM
+Dashboard,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Sidebar' tidak terlihat dalam 10 detik
+Dashboard,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Sidebar Toggle Button' terlihat
+Dashboard,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Main Content Area' terlihat
+Dashboard,Dashboard Sections/Charts,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Dashboard Sections/Charts'
+Dashboard,Station Links,Count station links,Station links should be present,PASS,Ditemukan 2 elemen 'Station Links'
+Dashboard,Download Section,Check download section,Download section should be present,PASS,Elemen 'Download Section' ada di DOM
+Kalimantan,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Kalimantan Sidebar' tidak terlihat dalam 10 detik
+Kalimantan,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Kalimantan Sidebar Toggle' terlihat
+Kalimantan,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Kalimantan Main Content' terlihat
+Kalimantan,Dashboard Sections,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Kalimantan Dashboard Sections'
+Kalimantan,Station Links,Count station links,Station links should be present,PASS,Ditemukan 2 elemen 'Kalimantan Station Links'
+Kalimantan,Download Section,Check download section,Download section should be present,PASS,Elemen 'Kalimantan Download Section' ada di DOM
+Sebesi,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Sebesi Sidebar' tidak terlihat dalam 10 detik
+Sebesi,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Sebesi Sidebar Toggle' terlihat
+Sebesi,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Sebesi Main Content' terlihat
+Sebesi,Dashboard Sections,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Sebesi Dashboard Sections'
+Sebesi,Station Links,Count station links,Station links should be present,PASS,Ditemukan 1 elemen 'Sebesi Station Links'
+Sebesi,Download Section,Check download section,Download section should be present,PASS,Elemen 'Sebesi Download Section' ada di DOM
+Navigation,Home Navigation,Navigate to Home page,Navigation should be successful,PASS,Successfully navigated to Home
+Navigation,Dashboard Navigation,Navigate to Dashboard page,Navigation should be successful,PASS,Successfully navigated to Dashboard
+Navigation,Kalimantan Navigation,Navigate to Kalimantan page,Navigation should be successful,PASS,Successfully navigated to Kalimantan
+Navigation,Sebesi Navigation,Navigate to Sebesi page,Navigation should be successful,PASS,Successfully navigated to Sebesi
+Dashboard,Station 1 Sub-navigation,Navigate to Dashboard Station 1,Page should load successfully,PASS,Dashboard Station 1 loaded successfully
+Dashboard,Station 2 Sub-navigation,Navigate to Dashboard Station 2,Page should load successfully,PASS,Dashboard Station 2 loaded successfully
+Dashboard,Download Sub-navigation,Navigate to Dashboard Download,Page should load successfully,PASS,Dashboard Download loaded successfully
+Kalimantan,Station 1 Sub-navigation,Navigate to Kalimantan Station 1,Page should load successfully,PASS,Kalimantan Station 1 loaded successfully
+Kalimantan,Station 2 Sub-navigation,Navigate to Kalimantan Station 2,Page should load successfully,PASS,Kalimantan Station 2 loaded successfully
+Kalimantan,Download Sub-navigation,Navigate to Kalimantan Download,Page should load successfully,PASS,Kalimantan Download loaded successfully
+Sebesi,Station 1 Sub-navigation,Navigate to Sebesi Station 1,Page should load successfully,PASS,Sebesi Station 1 loaded successfully
+Sebesi,Station 2 Sub-navigation,Navigate to Sebesi Station 2,Page should load successfully,PASS,Sebesi Station 2 loaded successfully
+Sebesi,Download Sub-navigation,Navigate to Sebesi Download,Page should load successfully,PASS,Sebesi Download loaded successfully
+Home,Responsive Layout (320px),Check horizontal scrollbar,No horizontal scrollbar should be present,FAIL,Horizontal scrollbar detected. Body width: 612px Window width: 500px
+Home,Mobile Navbar Toggle (320px),Check mobile navbar toggle,Mobile navbar toggle should be present at 320px,PASS,Mobile navbar toggle found at 320px
+Dashboard,Responsive Sidebar (320px),Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /dashboard' tidak ada di DOM
+Kalimantan,Responsive Sidebar (320px),Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /kalimantan' tidak ada di DOM
+Sebesi,Responsive Sidebar (320px),Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /sebesi' tidak ada di DOM

@@ -7,7 +7,7 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 
 ## 📌 Tim Penguji  
 - Imam Ariadi (Koordinator, Pendahuluan & Kesimpulan)  
-- Azka (Deskripsi Sistem & Lingkungan Pengujian)  
+- Azka (Deskripsi Sistem, Lingkungan Pengujian, UI Testing, dan Navigation Testing)  
 - Ale (Manual Testing & Test Case)  
 - Faqih (Responsiveness & Cross-Browser Testing)  
 - Andre (Automated Testing & Bug Report)
@@ -31,6 +31,12 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 | Form & Validasi  | Ale              | [Tabel pengujian input form](LINK_DOC_ALE)                  |
 | Kompatibilitas Browser  | Faqih            | [Laporan cross-browser & responsive testing](LINK_DOC_FAQIH)            |
 | Bug Hunter & Dokumentasi  | Andre            | [Laporan bug lengkap + saran perbaikan](LINK_DOC_ANDRE)           |
+| Pendahuluan, Tujuan, Kesimpulan | Imam             | [Laporan Pendahuluan & Kesimpulan](LINK_DOC_IMAM) |
+| Deskripsi Sistem, Lingkungan Pengujian, UI Testing, dan Navigation Testing  | Azka             | [Deskripsi Sistem](LINK_DOC_AZKA)                |
+| Test Plan & Test Case Manual    | Ale              | [Test Case Manual](LINK_DOC_ALE)                  |
+| Responsiveness & Cross-Browser  | Faqih            | [Hasil Responsiveness](LINK_DOC_FAQIH)            |
+| Automated Testing & Bug Report  | Andre            | [Bug Report & Automasi](LINK_DOC_ANDRE)           |
+>>>>>>> f95c633c9bad543b3ddf43f603f6efa3e7116a60
 | Laporan full version                       | Semua            | [Lampiran Lengkap](LINK_LAMPIRAN)                  |
 
 ---
@@ -54,7 +60,7 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 
 ## 📞 Kontak Tim  
 - Imam Ariadi (Koordinator) – imamariadi775@gmail.com  
-- Azka – [email_azka@example.com]  
+- Muhammad Azka Naufal – m.azka.naufal24122003@gmail.com
 - Ale – [email_ale@example.com]  
 - Faqih – [email_faqih@example.com]  
 - Andre – [email_andre@example.com]  
