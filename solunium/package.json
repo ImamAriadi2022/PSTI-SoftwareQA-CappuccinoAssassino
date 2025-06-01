@@ -1,0 +1,14 @@
+{
+  "name": "solunium",
+  "version": "1.0.0",
+  "description": "Selenium end-to-end tests for Web IoT Dashboard",
+  "scripts": {
+    "test": "mocha tests/*.test.js --timeout 20000"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.19.0"
+  }
+}
