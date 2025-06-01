@@ -10,7 +10,7 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 - Azka (Deskripsi Sistem, Penguji otomasi, UI Testing, dan Navigation Testing)  
 - Ale (Manual Testing & Test Case)  
 - Faqih (Responsiveness & Cross-Browser Testing)  
-- Andre (Automated Testing & Bug Report)
+- Aloysius Andre N. H. M. (Automated Testing & Bug Report)
 
 ---
 
@@ -57,5 +57,5 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 - Muhammad Azka Naufal – m.azka.naufal24122003@gmail.com
 - Ale – [email_ale@example.com]  
 - Faqih – [muhammadfaqihhmwn@gmail.com]  
-- Andre – [aloysiusandrenhm@gmail.com]  
+- Aloysius Andre N. H. M. – [aloysiusandrenhm@gmail.com]  
 
