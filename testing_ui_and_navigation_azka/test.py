@@ -11,10 +11,10 @@ import os
 driver = None
 
 # URL aplikasi web Anda yang berjalan secara lokal
-base_url = "http://localhost:3000"
+base_url = "https://web-iot-omega.vercel.app/"
 
 # Ukuran layar untuk diuji
-screen_widths = [320]
+screen_widths = [320, 768, 1366]
 
 # Test log list
 test_logs = []

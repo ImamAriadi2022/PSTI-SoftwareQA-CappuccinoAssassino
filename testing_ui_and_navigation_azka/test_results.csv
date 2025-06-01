@@ -1,51 +1,150 @@
-Page,Components,Action,Expected Result,Status,Note
-Home,Page Title,Check page title,Title should contain 'MicroClimate' or appropriate app name,FAIL,Judul halaman kosong atau tidak sesuai: 'React App'
-Home,Navbar,Verify navbar visibility,Navbar should be visible,PASS,Elemen 'Navbar' terlihat
-Home,Logo,Check logo presence,Logo should be present in DOM,PASS,Elemen 'Logo' ada di DOM
-Home,Navigation Links,Count navigation links,Navigation links should be present,PASS,Ditemukan 4 elemen 'Navigation Links'
-Home,Home Link,Check home link,Home link should be present,PASS,Elemen 'Home Link' ada di DOM
-Home,Hero Section,Verify hero section visibility,Hero section should be visible,PASS,Elemen 'Hero Section' terlihat
-Home,Category Section,Verify category section visibility,Category section should be visible,PASS,Elemen 'Category Section' terlihat
-Home,Core Features Section,Verify core features visibility,Core features section should be visible,PASS,Elemen 'Core Features Section' terlihat
-Home,Card Features,Count card features,Card features should be present,PASS,Ditemukan 49 elemen 'Card Features'
-Home,Alat Section,Verify alat section visibility,Alat section should be visible,PASS,Elemen 'Alat Section' terlihat
-Home,Launch Section,Verify launch section visibility,Launch section should be visible,PASS,Elemen 'Launch Section' terlihat
-Home,FAQ Section,Verify FAQ section visibility,FAQ section should be visible,PASS,Elemen 'FAQ Section' terlihat
-Home,Footer,Verify footer visibility,Footer should be visible,PASS,Elemen 'Footer' terlihat
-Home,Scroll to Top Button,Check scroll button presence,Scroll to top button should be present,PASS,Elemen 'Scroll to Top Button' ada di DOM
-Dashboard,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Sidebar' tidak terlihat dalam 10 detik
-Dashboard,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Sidebar Toggle Button' terlihat
-Dashboard,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Main Content Area' terlihat
-Dashboard,Dashboard Sections/Charts,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Dashboard Sections/Charts'
-Dashboard,Station Links,Count station links,Station links should be present,PASS,Ditemukan 2 elemen 'Station Links'
-Dashboard,Download Section,Check download section,Download section should be present,PASS,Elemen 'Download Section' ada di DOM
-Kalimantan,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Kalimantan Sidebar' tidak terlihat dalam 10 detik
-Kalimantan,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Kalimantan Sidebar Toggle' terlihat
-Kalimantan,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Kalimantan Main Content' terlihat
-Kalimantan,Dashboard Sections,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Kalimantan Dashboard Sections'
-Kalimantan,Station Links,Count station links,Station links should be present,PASS,Ditemukan 2 elemen 'Kalimantan Station Links'
-Kalimantan,Download Section,Check download section,Download section should be present,PASS,Elemen 'Kalimantan Download Section' ada di DOM
-Sebesi,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Sebesi Sidebar' tidak terlihat dalam 10 detik
-Sebesi,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Sebesi Sidebar Toggle' terlihat
-Sebesi,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Sebesi Main Content' terlihat
-Sebesi,Dashboard Sections,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Sebesi Dashboard Sections'
-Sebesi,Station Links,Count station links,Station links should be present,PASS,Ditemukan 1 elemen 'Sebesi Station Links'
-Sebesi,Download Section,Check download section,Download section should be present,PASS,Elemen 'Sebesi Download Section' ada di DOM
-Navigation,Home Navigation,Navigate to Home page,Navigation should be successful,PASS,Successfully navigated to Home
-Navigation,Dashboard Navigation,Navigate to Dashboard page,Navigation should be successful,PASS,Successfully navigated to Dashboard
-Navigation,Kalimantan Navigation,Navigate to Kalimantan page,Navigation should be successful,PASS,Successfully navigated to Kalimantan
-Navigation,Sebesi Navigation,Navigate to Sebesi page,Navigation should be successful,PASS,Successfully navigated to Sebesi
-Dashboard,Station 1 Sub-navigation,Navigate to Dashboard Station 1,Page should load successfully,PASS,Dashboard Station 1 loaded successfully
-Dashboard,Station 2 Sub-navigation,Navigate to Dashboard Station 2,Page should load successfully,PASS,Dashboard Station 2 loaded successfully
-Dashboard,Download Sub-navigation,Navigate to Dashboard Download,Page should load successfully,PASS,Dashboard Download loaded successfully
-Kalimantan,Station 1 Sub-navigation,Navigate to Kalimantan Station 1,Page should load successfully,PASS,Kalimantan Station 1 loaded successfully
-Kalimantan,Station 2 Sub-navigation,Navigate to Kalimantan Station 2,Page should load successfully,PASS,Kalimantan Station 2 loaded successfully
-Kalimantan,Download Sub-navigation,Navigate to Kalimantan Download,Page should load successfully,PASS,Kalimantan Download loaded successfully
-Sebesi,Station 1 Sub-navigation,Navigate to Sebesi Station 1,Page should load successfully,PASS,Sebesi Station 1 loaded successfully
-Sebesi,Station 2 Sub-navigation,Navigate to Sebesi Station 2,Page should load successfully,PASS,Sebesi Station 2 loaded successfully
-Sebesi,Download Sub-navigation,Navigate to Sebesi Download,Page should load successfully,PASS,Sebesi Download loaded successfully
-Home,Responsive Layout (320px),Check horizontal scrollbar,No horizontal scrollbar should be present,FAIL,Horizontal scrollbar detected. Body width: 612px Window width: 500px
-Home,Mobile Navbar Toggle (320px),Check mobile navbar toggle,Mobile navbar toggle should be present at 320px,PASS,Mobile navbar toggle found at 320px
-Dashboard,Responsive Sidebar (320px),Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /dashboard' tidak ada di DOM
-Kalimantan,Responsive Sidebar (320px),Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /kalimantan' tidak ada di DOM
-Sebesi,Responsive Sidebar (320px),Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /sebesi' tidak ada di DOM
+Page,Components,Action,Expected Result,Status,Note,Resolution,Test_Date
+Home,Page Title,Check page title,Title should contain 'MicroClimate' or appropriate app name,FAIL,Judul halaman kosong atau tidak sesuai: 'React App',320px,2025-06-01 21:56:45
+Home,Navbar,Verify navbar visibility,Navbar should be visible,PASS,Elemen 'Navbar' terlihat,320px,2025-06-01 21:56:45
+Home,Logo,Check logo presence,Logo should be present in DOM,PASS,Elemen 'Logo' ada di DOM,320px,2025-06-01 21:56:45
+Home,Navigation Links,Count navigation links,Navigation links should be present,PASS,Ditemukan 4 elemen 'Navigation Links',320px,2025-06-01 21:56:45
+Home,Home Link,Check home link,Home link should be present,PASS,Elemen 'Home Link' ada di DOM,320px,2025-06-01 21:56:45
+Home,Hero Section,Verify hero section visibility,Hero section should be visible,PASS,Elemen 'Hero Section' terlihat,320px,2025-06-01 21:56:45
+Home,Category Section,Verify category section visibility,Category section should be visible,PASS,Elemen 'Category Section' terlihat,320px,2025-06-01 21:56:45
+Home,Core Features Section,Verify core features visibility,Core features section should be visible,PASS,Elemen 'Core Features Section' terlihat,320px,2025-06-01 21:56:45
+Home,Card Features,Count card features,Card features should be present,PASS,Ditemukan 49 elemen 'Card Features',320px,2025-06-01 21:56:45
+Home,Alat Section,Verify alat section visibility,Alat section should be visible,PASS,Elemen 'Alat Section' terlihat,320px,2025-06-01 21:56:45
+Home,Launch Section,Verify launch section visibility,Launch section should be visible,PASS,Elemen 'Launch Section' terlihat,320px,2025-06-01 21:56:45
+Home,FAQ Section,Verify FAQ section visibility,FAQ section should be visible,PASS,Elemen 'FAQ Section' terlihat,320px,2025-06-01 21:56:45
+Home,Footer,Verify footer visibility,Footer should be visible,PASS,Elemen 'Footer' terlihat,320px,2025-06-01 21:56:45
+Home,Scroll to Top Button,Check scroll button presence,Scroll to top button should be present,PASS,Elemen 'Scroll to Top Button' ada di DOM,320px,2025-06-01 21:56:45
+Dashboard,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Sidebar' tidak terlihat dalam 10 detik,320px,2025-06-01 21:56:45
+Dashboard,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Sidebar Toggle Button' terlihat,320px,2025-06-01 21:56:45
+Dashboard,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Main Content Area' terlihat,320px,2025-06-01 21:56:45
+Dashboard,Dashboard Sections/Charts,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Dashboard Sections/Charts',320px,2025-06-01 21:56:45
+Dashboard,Station Links,Count station links,Station links should be present,PASS,Ditemukan 2 elemen 'Station Links',320px,2025-06-01 21:56:45
+Dashboard,Download Section,Check download section,Download section should be present,PASS,Elemen 'Download Section' ada di DOM,320px,2025-06-01 21:56:45
+Kalimantan,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Kalimantan Sidebar' tidak terlihat dalam 10 detik,320px,2025-06-01 21:56:45
+Kalimantan,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Kalimantan Sidebar Toggle' terlihat,320px,2025-06-01 21:56:45
+Kalimantan,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Kalimantan Main Content' terlihat,320px,2025-06-01 21:56:45
+Kalimantan,Dashboard Sections,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Kalimantan Dashboard Sections',320px,2025-06-01 21:56:45
+Kalimantan,Station Links,Count station links,Station links should be present,PASS,Ditemukan 2 elemen 'Kalimantan Station Links',320px,2025-06-01 21:56:45
+Kalimantan,Download Section,Check download section,Download section should be present,PASS,Elemen 'Kalimantan Download Section' ada di DOM,320px,2025-06-01 21:56:45
+Sebesi,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Sebesi Sidebar' tidak terlihat dalam 10 detik,320px,2025-06-01 21:56:45
+Sebesi,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Sebesi Sidebar Toggle' terlihat,320px,2025-06-01 21:56:45
+Sebesi,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Sebesi Main Content' terlihat,320px,2025-06-01 21:56:45
+Sebesi,Dashboard Sections,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Sebesi Dashboard Sections',320px,2025-06-01 21:56:45
+Sebesi,Station Links,Count station links,Station links should be present,PASS,Ditemukan 1 elemen 'Sebesi Station Links',320px,2025-06-01 21:56:45
+Sebesi,Download Section,Check download section,Download section should be present,PASS,Elemen 'Sebesi Download Section' ada di DOM,320px,2025-06-01 21:56:45
+Navigation,Home Navigation,Navigate to Home page,Navigation should be successful,PASS,Successfully navigated to Home,320px,2025-06-01 21:56:45
+Navigation,Dashboard Navigation,Navigate to Dashboard page,Navigation should be successful,PASS,Successfully navigated to Dashboard,320px,2025-06-01 21:56:45
+Navigation,Kalimantan Navigation,Navigate to Kalimantan page,Navigation should be successful,PASS,Successfully navigated to Kalimantan,320px,2025-06-01 21:56:45
+Navigation,Sebesi Navigation,Navigate to Sebesi page,Navigation should be successful,PASS,Successfully navigated to Sebesi,320px,2025-06-01 21:56:45
+Dashboard,Station 1 Sub-navigation,Navigate to Dashboard Station 1,Page should load successfully,PASS,Dashboard Station 1 loaded successfully,320px,2025-06-01 21:56:45
+Dashboard,Station 2 Sub-navigation,Navigate to Dashboard Station 2,Page should load successfully,PASS,Dashboard Station 2 loaded successfully,320px,2025-06-01 21:56:45
+Dashboard,Download Sub-navigation,Navigate to Dashboard Download,Page should load successfully,PASS,Dashboard Download loaded successfully,320px,2025-06-01 21:56:45
+Kalimantan,Station 1 Sub-navigation,Navigate to Kalimantan Station 1,Page should load successfully,PASS,Kalimantan Station 1 loaded successfully,320px,2025-06-01 21:56:45
+Kalimantan,Station 2 Sub-navigation,Navigate to Kalimantan Station 2,Page should load successfully,PASS,Kalimantan Station 2 loaded successfully,320px,2025-06-01 21:56:45
+Kalimantan,Download Sub-navigation,Navigate to Kalimantan Download,Page should load successfully,PASS,Kalimantan Download loaded successfully,320px,2025-06-01 21:56:45
+Sebesi,Station 1 Sub-navigation,Navigate to Sebesi Station 1,Page should load successfully,PASS,Sebesi Station 1 loaded successfully,320px,2025-06-01 21:56:45
+Sebesi,Station 2 Sub-navigation,Navigate to Sebesi Station 2,Page should load successfully,PASS,Sebesi Station 2 loaded successfully,320px,2025-06-01 21:56:45
+Sebesi,Download Sub-navigation,Navigate to Sebesi Download,Page should load successfully,PASS,Sebesi Download loaded successfully,320px,2025-06-01 21:56:45
+Home,Responsive Layout,Check horizontal scrollbar,No horizontal scrollbar should be present,FAIL,Horizontal scrollbar detected. Body width: 612px Window width: 500px,320px,2025-06-01 21:56:45
+Home,Mobile Navbar Toggle,Check mobile navbar toggle,Mobile navbar toggle should be present,PASS,Mobile navbar toggle found at 320px,320px,2025-06-01 21:56:45
+Dashboard,Responsive Sidebar,Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /dashboard' tidak ada di DOM,320px,2025-06-01 21:56:45
+Kalimantan,Responsive Sidebar,Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /kalimantan' tidak ada di DOM,320px,2025-06-01 21:56:45
+Sebesi,Responsive Sidebar,Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /sebesi' tidak ada di DOM,320px,2025-06-01 21:56:45
+Home,Page Title,Check page title,Title should contain 'MicroClimate' or appropriate app name,FAIL,Judul halaman kosong atau tidak sesuai: 'React App',768px,2025-06-01 21:56:45
+Home,Navbar,Verify navbar visibility,Navbar should be visible,PASS,Elemen 'Navbar' terlihat,768px,2025-06-01 21:56:45
+Home,Logo,Check logo presence,Logo should be present in DOM,PASS,Elemen 'Logo' ada di DOM,768px,2025-06-01 21:56:45
+Home,Navigation Links,Count navigation links,Navigation links should be present,PASS,Ditemukan 4 elemen 'Navigation Links',768px,2025-06-01 21:56:45
+Home,Home Link,Check home link,Home link should be present,PASS,Elemen 'Home Link' ada di DOM,768px,2025-06-01 21:56:45
+Home,Hero Section,Verify hero section visibility,Hero section should be visible,PASS,Elemen 'Hero Section' terlihat,768px,2025-06-01 21:56:45
+Home,Category Section,Verify category section visibility,Category section should be visible,PASS,Elemen 'Category Section' terlihat,768px,2025-06-01 21:56:45
+Home,Core Features Section,Verify core features visibility,Core features section should be visible,PASS,Elemen 'Core Features Section' terlihat,768px,2025-06-01 21:56:45
+Home,Card Features,Count card features,Card features should be present,PASS,Ditemukan 49 elemen 'Card Features',768px,2025-06-01 21:56:45
+Home,Alat Section,Verify alat section visibility,Alat section should be visible,PASS,Elemen 'Alat Section' terlihat,768px,2025-06-01 21:56:45
+Home,Launch Section,Verify launch section visibility,Launch section should be visible,PASS,Elemen 'Launch Section' terlihat,768px,2025-06-01 21:56:45
+Home,FAQ Section,Verify FAQ section visibility,FAQ section should be visible,PASS,Elemen 'FAQ Section' terlihat,768px,2025-06-01 21:56:45
+Home,Footer,Verify footer visibility,Footer should be visible,PASS,Elemen 'Footer' terlihat,768px,2025-06-01 21:56:45
+Home,Scroll to Top Button,Check scroll button presence,Scroll to top button should be present,PASS,Elemen 'Scroll to Top Button' ada di DOM,768px,2025-06-01 21:56:45
+Dashboard,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Sidebar' tidak terlihat dalam 10 detik,768px,2025-06-01 21:56:45
+Dashboard,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Sidebar Toggle Button' terlihat,768px,2025-06-01 21:56:45
+Dashboard,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Main Content Area' terlihat,768px,2025-06-01 21:56:45
+Dashboard,Dashboard Sections/Charts,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Dashboard Sections/Charts',768px,2025-06-01 21:56:45
+Dashboard,Station Links,Count station links,Station links should be present,PASS,Ditemukan 2 elemen 'Station Links',768px,2025-06-01 21:56:45
+Dashboard,Download Section,Check download section,Download section should be present,PASS,Elemen 'Download Section' ada di DOM,768px,2025-06-01 21:56:45
+Kalimantan,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Kalimantan Sidebar' tidak terlihat dalam 10 detik,768px,2025-06-01 21:56:45
+Kalimantan,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Kalimantan Sidebar Toggle' terlihat,768px,2025-06-01 21:56:45
+Kalimantan,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Kalimantan Main Content' terlihat,768px,2025-06-01 21:56:45
+Kalimantan,Dashboard Sections,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Kalimantan Dashboard Sections',768px,2025-06-01 21:56:45
+Kalimantan,Station Links,Count station links,Station links should be present,PASS,Ditemukan 2 elemen 'Kalimantan Station Links',768px,2025-06-01 21:56:45
+Kalimantan,Download Section,Check download section,Download section should be present,PASS,Elemen 'Kalimantan Download Section' ada di DOM,768px,2025-06-01 21:56:45
+Sebesi,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Sebesi Sidebar' tidak terlihat dalam 10 detik,768px,2025-06-01 21:56:45
+Sebesi,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Sebesi Sidebar Toggle' terlihat,768px,2025-06-01 21:56:45
+Sebesi,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Sebesi Main Content' terlihat,768px,2025-06-01 21:56:45
+Sebesi,Dashboard Sections,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Sebesi Dashboard Sections',768px,2025-06-01 21:56:45
+Sebesi,Station Links,Count station links,Station links should be present,PASS,Ditemukan 1 elemen 'Sebesi Station Links',768px,2025-06-01 21:56:45
+Sebesi,Download Section,Check download section,Download section should be present,PASS,Elemen 'Sebesi Download Section' ada di DOM,768px,2025-06-01 21:56:45
+Navigation,Home Navigation,Navigate to Home page,Navigation should be successful,PASS,Successfully navigated to Home,768px,2025-06-01 21:56:45
+Navigation,Dashboard Navigation,Navigate to Dashboard page,Navigation should be successful,PASS,Successfully navigated to Dashboard,768px,2025-06-01 21:56:45
+Navigation,Kalimantan Navigation,Navigate to Kalimantan page,Navigation should be successful,PASS,Successfully navigated to Kalimantan,768px,2025-06-01 21:56:45
+Navigation,Sebesi Navigation,Navigate to Sebesi page,Navigation should be successful,PASS,Successfully navigated to Sebesi,768px,2025-06-01 21:56:45
+Dashboard,Station 1 Sub-navigation,Navigate to Dashboard Station 1,Page should load successfully,PASS,Dashboard Station 1 loaded successfully,768px,2025-06-01 21:56:45
+Dashboard,Station 2 Sub-navigation,Navigate to Dashboard Station 2,Page should load successfully,PASS,Dashboard Station 2 loaded successfully,768px,2025-06-01 21:56:45
+Dashboard,Download Sub-navigation,Navigate to Dashboard Download,Page should load successfully,PASS,Dashboard Download loaded successfully,768px,2025-06-01 21:56:45
+Kalimantan,Station 1 Sub-navigation,Navigate to Kalimantan Station 1,Page should load successfully,PASS,Kalimantan Station 1 loaded successfully,768px,2025-06-01 21:56:45
+Kalimantan,Station 2 Sub-navigation,Navigate to Kalimantan Station 2,Page should load successfully,PASS,Kalimantan Station 2 loaded successfully,768px,2025-06-01 21:56:45
+Kalimantan,Download Sub-navigation,Navigate to Kalimantan Download,Page should load successfully,PASS,Kalimantan Download loaded successfully,768px,2025-06-01 21:56:45
+Sebesi,Station 1 Sub-navigation,Navigate to Sebesi Station 1,Page should load successfully,PASS,Sebesi Station 1 loaded successfully,768px,2025-06-01 21:56:45
+Sebesi,Station 2 Sub-navigation,Navigate to Sebesi Station 2,Page should load successfully,PASS,Sebesi Station 2 loaded successfully,768px,2025-06-01 21:56:45
+Sebesi,Download Sub-navigation,Navigate to Sebesi Download,Page should load successfully,PASS,Sebesi Download loaded successfully,768px,2025-06-01 21:56:45
+Home,Responsive Layout,Check horizontal scrollbar,No horizontal scrollbar should be present,PASS,No horizontal scrollbar. Layout fits in 768px,768px,2025-06-01 21:56:45
+Home,Mobile Navbar Toggle,Check mobile navbar toggle,Mobile navbar toggle should be present,PASS,Mobile navbar toggle found at 768px,768px,2025-06-01 21:56:45
+Dashboard,Responsive Sidebar,Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /dashboard' tidak ada di DOM,768px,2025-06-01 21:56:45
+Kalimantan,Responsive Sidebar,Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /kalimantan' tidak ada di DOM,768px,2025-06-01 21:56:45
+Sebesi,Responsive Sidebar,Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /sebesi' tidak ada di DOM,768px,2025-06-01 21:56:45
+Home,Page Title,Check page title,Title should contain 'MicroClimate' or appropriate app name,FAIL,Judul halaman kosong atau tidak sesuai: 'React App',1366px,2025-06-01 21:56:45
+Home,Navbar,Verify navbar visibility,Navbar should be visible,PASS,Elemen 'Navbar' terlihat,1366px,2025-06-01 21:56:45
+Home,Logo,Check logo presence,Logo should be present in DOM,PASS,Elemen 'Logo' ada di DOM,1366px,2025-06-01 21:56:45
+Home,Navigation Links,Count navigation links,Navigation links should be present,PASS,Ditemukan 4 elemen 'Navigation Links',1366px,2025-06-01 21:56:45
+Home,Home Link,Check home link,Home link should be present,PASS,Elemen 'Home Link' ada di DOM,1366px,2025-06-01 21:56:45
+Home,Hero Section,Verify hero section visibility,Hero section should be visible,PASS,Elemen 'Hero Section' terlihat,1366px,2025-06-01 21:56:45
+Home,Category Section,Verify category section visibility,Category section should be visible,PASS,Elemen 'Category Section' terlihat,1366px,2025-06-01 21:56:45
+Home,Core Features Section,Verify core features visibility,Core features section should be visible,PASS,Elemen 'Core Features Section' terlihat,1366px,2025-06-01 21:56:45
+Home,Card Features,Count card features,Card features should be present,PASS,Ditemukan 49 elemen 'Card Features',1366px,2025-06-01 21:56:45
+Home,Alat Section,Verify alat section visibility,Alat section should be visible,PASS,Elemen 'Alat Section' terlihat,1366px,2025-06-01 21:56:45
+Home,Launch Section,Verify launch section visibility,Launch section should be visible,PASS,Elemen 'Launch Section' terlihat,1366px,2025-06-01 21:56:45
+Home,FAQ Section,Verify FAQ section visibility,FAQ section should be visible,PASS,Elemen 'FAQ Section' terlihat,1366px,2025-06-01 21:56:45
+Home,Footer,Verify footer visibility,Footer should be visible,PASS,Elemen 'Footer' terlihat,1366px,2025-06-01 21:56:45
+Home,Scroll to Top Button,Check scroll button presence,Scroll to top button should be present,PASS,Elemen 'Scroll to Top Button' ada di DOM,1366px,2025-06-01 21:56:45
+Dashboard,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Sidebar' tidak terlihat dalam 10 detik,1366px,2025-06-01 21:56:45
+Dashboard,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Sidebar Toggle Button' terlihat,1366px,2025-06-01 21:56:45
+Dashboard,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Main Content Area' terlihat,1366px,2025-06-01 21:56:45
+Dashboard,Dashboard Sections/Charts,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Dashboard Sections/Charts',1366px,2025-06-01 21:56:45
+Dashboard,Station Links,Count station links,Station links should be present,PASS,Ditemukan 2 elemen 'Station Links',1366px,2025-06-01 21:56:45
+Dashboard,Download Section,Check download section,Download section should be present,PASS,Elemen 'Download Section' ada di DOM,1366px,2025-06-01 21:56:45
+Kalimantan,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Kalimantan Sidebar' tidak terlihat dalam 10 detik,1366px,2025-06-01 21:56:45
+Kalimantan,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Kalimantan Sidebar Toggle' terlihat,1366px,2025-06-01 21:56:45
+Kalimantan,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Kalimantan Main Content' terlihat,1366px,2025-06-01 21:56:45
+Kalimantan,Dashboard Sections,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Kalimantan Dashboard Sections',1366px,2025-06-01 21:56:45
+Kalimantan,Station Links,Count station links,Station links should be present,PASS,Ditemukan 2 elemen 'Kalimantan Station Links',1366px,2025-06-01 21:56:45
+Kalimantan,Download Section,Check download section,Download section should be present,PASS,Elemen 'Kalimantan Download Section' ada di DOM,1366px,2025-06-01 21:56:45
+Sebesi,Sidebar,Verify sidebar visibility,Sidebar should be visible,FAIL,Elemen 'Sebesi Sidebar' tidak terlihat dalam 10 detik,1366px,2025-06-01 21:56:45
+Sebesi,Sidebar Toggle Button,Check toggle button visibility,Toggle button should be visible,PASS,Elemen 'Sebesi Sidebar Toggle' terlihat,1366px,2025-06-01 21:56:45
+Sebesi,Main Content Area,Verify main content area,Main content area should be visible,PASS,Elemen 'Sebesi Main Content' terlihat,1366px,2025-06-01 21:56:45
+Sebesi,Dashboard Sections,Count dashboard sections,Dashboard sections should be present,PASS,Ditemukan 1 elemen 'Sebesi Dashboard Sections',1366px,2025-06-01 21:56:45
+Sebesi,Station Links,Count station links,Station links should be present,PASS,Ditemukan 1 elemen 'Sebesi Station Links',1366px,2025-06-01 21:56:45
+Sebesi,Download Section,Check download section,Download section should be present,PASS,Elemen 'Sebesi Download Section' ada di DOM,1366px,2025-06-01 21:56:45
+Navigation,Home Navigation,Navigate to Home page,Navigation should be successful,PASS,Successfully navigated to Home,1366px,2025-06-01 21:56:45
+Navigation,Dashboard Navigation,Navigate to Dashboard page,Navigation should be successful,PASS,Successfully navigated to Dashboard,1366px,2025-06-01 21:56:45
+Navigation,Kalimantan Navigation,Navigate to Kalimantan page,Navigation should be successful,PASS,Successfully navigated to Kalimantan,1366px,2025-06-01 21:56:45
+Navigation,Sebesi Navigation,Navigate to Sebesi page,Navigation should be successful,PASS,Successfully navigated to Sebesi,1366px,2025-06-01 21:56:45
+Dashboard,Station 1 Sub-navigation,Navigate to Dashboard Station 1,Page should load successfully,PASS,Dashboard Station 1 loaded successfully,1366px,2025-06-01 21:56:45
+Dashboard,Station 2 Sub-navigation,Navigate to Dashboard Station 2,Page should load successfully,PASS,Dashboard Station 2 loaded successfully,1366px,2025-06-01 21:56:45
+Dashboard,Download Sub-navigation,Navigate to Dashboard Download,Page should load successfully,PASS,Dashboard Download loaded successfully,1366px,2025-06-01 21:56:45
+Kalimantan,Station 1 Sub-navigation,Navigate to Kalimantan Station 1,Page should load successfully,PASS,Kalimantan Station 1 loaded successfully,1366px,2025-06-01 21:56:45
+Kalimantan,Station 2 Sub-navigation,Navigate to Kalimantan Station 2,Page should load successfully,PASS,Kalimantan Station 2 loaded successfully,1366px,2025-06-01 21:56:45
+Kalimantan,Download Sub-navigation,Navigate to Kalimantan Download,Page should load successfully,PASS,Kalimantan Download loaded successfully,1366px,2025-06-01 21:56:45
+Sebesi,Station 1 Sub-navigation,Navigate to Sebesi Station 1,Page should load successfully,PASS,Sebesi Station 1 loaded successfully,1366px,2025-06-01 21:56:45
+Sebesi,Station 2 Sub-navigation,Navigate to Sebesi Station 2,Page should load successfully,PASS,Sebesi Station 2 loaded successfully,1366px,2025-06-01 21:56:45
+Sebesi,Download Sub-navigation,Navigate to Sebesi Download,Page should load successfully,PASS,Sebesi Download loaded successfully,1366px,2025-06-01 21:56:45
+Home,Responsive Layout,Check horizontal scrollbar,No horizontal scrollbar should be present,PASS,No horizontal scrollbar. Layout fits in 1366px,1366px,2025-06-01 21:56:45
+Dashboard,Responsive Sidebar,Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /dashboard' tidak ada di DOM,1366px,2025-06-01 21:56:45
+Kalimantan,Responsive Sidebar,Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /kalimantan' tidak ada di DOM,1366px,2025-06-01 21:56:45
+Sebesi,Responsive Sidebar,Check sidebar responsiveness,Sidebar should be present and responsive,FAIL,Elemen 'Sidebar in /sebesi' tidak ada di DOM,1366px,2025-06-01 21:56:45
