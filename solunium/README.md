@@ -1,5 +1,3 @@
-
-```markdown
 # 🧪 Selenium Test untuk Web IoT
 
 Project ini berisi pengujian otomatis berbasis **Selenium WebDriver** untuk aplikasi **React Web IoT**. Pengujian mencakup:
@@ -12,19 +10,17 @@ Project ini berisi pengujian otomatis berbasis **Selenium WebDriver** untuk apli
 ## 📁 Struktur Folder
 
 ```
-
 solunium/
 ├── tests/
 │   ├── card-rendering.test.js
-│   └── navigation.test.js
+│   ├── navigation.test.js
 │   └── dashboard.test.js
 ├── utils/
 │   └── webdriver.js
 ├── .env
 ├── package.json
 └── README.md
-
-````
+```
 
 ---
 
@@ -43,7 +39,7 @@ solunium/
 ```bash
 git clone https://github.com/ImamAriadi2022/web-iot.git
 cd web-iot/solunium
-````
+```
 
 > Atau jika menggunakan folder project terpisah, pastikan React app tetap berjalan di `https://web-iot-omega.vercel.app/`.
 
@@ -52,8 +48,7 @@ cd web-iot/solunium
 ### 2. Instalasi Dependency
 
 ```bash
-npm init -y
-npm install selenium-webdriver chromedriver dotenv mocha --save-dev
+npm install selenium-webdriver chromedriver dotenv mocha mochawesome --save-dev
 ```
 
 ---
@@ -96,11 +91,17 @@ Pastikan berjalan di `https://web-iot-omega.vercel.app/`.
 
 ### 6. Jalankan Pengujian
 
-Buka terminal di folder `solunium`:
-
+#### Cara 1: Jalankan dengan npm script (output CLI)
 ```bash
 npm test
 ```
+
+#### Cara 2: Jalankan dengan reporter HTML (mochawesome)
+```bash
+npx mocha tests --reporter mochawesome --timeout 120000
+```
+- Hasil laporan HTML akan tersimpan di:  
+  `solunium/mochawesome-report/mochawesome.html`
 
 ---
 
@@ -132,8 +133,6 @@ tests/authentication.test.js
 ## 🧑‍💻 Kontak
 
 Dikembangkan oleh 
-1. Imam Ariadi
-GitHub: [@ImamAriadi2022](https://github.com/ImamAriadi2022)
+1. Imam Ariadi  
+   GitHub: [@ImamAriadi2022](https://github.com/ImamAriadi2022)
 2. tambahkan anggota kelompok
-
-
