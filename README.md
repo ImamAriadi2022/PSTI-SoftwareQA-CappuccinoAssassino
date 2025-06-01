@@ -53,7 +53,7 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 ---
 
 ## 📞 Kontak Tim  
-- Imam Ariadi (Koordinator) – imamariadi775@gmail.com  
+- Imam Ariadi – imamariadi775@gmail.com  
 - Muhammad Azka Naufal – m.azka.naufal24122003@gmail.com
 - Ale – [email_ale@example.com]  
 - Faqih – [email_faqih@example.com]  
