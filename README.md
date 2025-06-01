@@ -6,8 +6,8 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 ---
 
 ## 📌 Tim Penguji  
-- Imam Ariadi (Koordinator, Pendahuluan & Kesimpulan)  
-- Azka (Deskripsi Sistem, Lingkungan Pengujian, UI Testing, dan Navigation Testing)  
+- Imam Ariadi (Koordinator, Pengujian otomasi dashboard navigasi dan tombol download)  
+- Azka (Deskripsi Sistem, Penguji otomasi, UI Testing, dan Navigation Testing)  
 - Ale (Manual Testing & Test Case)  
 - Faqih (Responsiveness & Cross-Browser Testing)  
 - Andre (Automated Testing & Bug Report)
@@ -31,7 +31,7 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 | Form & Validasi  | Ale              | [Tabel pengujian input form](LINK_DOC_ALE)                  |
 | Kompatibilitas Browser  | Faqih            | [Laporan cross-browser & responsive testing](LINK_DOC_FAQIH)            |
 | Bug Hunter & Dokumentasi  | Andre            | [Laporan bug lengkap + saran perbaikan](LINK_DOC_ANDRE)           |
-| Laporan full version                       | Semua            | [Lampiran Lengkap](LINK_LAMPIRAN)                  |
+| Laporan full version                       | Semua            | [Lampiran Lengkap](https://docs.google.com/document/d/192Gv3a3DJxLqIDMMazt0a27H8FjmIuQEaI0Q39vx5Ow/edit?usp=sharing)                  |
 
 ---
 
