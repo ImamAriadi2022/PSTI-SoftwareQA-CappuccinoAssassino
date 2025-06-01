@@ -57,5 +57,5 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 - Muhammad Azka Naufal – m.azka.naufal24122003@gmail.com
 - Ale – [email_ale@example.com]  
 - Faqih – [muhammadfaqihhmwn@gmail.com]  
-- Andre – [email_andre@example.com]  
+- Andre – [aloysiusandrenhm@gmail.com]  
 
