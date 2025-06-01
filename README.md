@@ -7,7 +7,7 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 
 ## 📌 Tim Penguji  
 - Imam Ariadi (Koordinator, Pendahuluan & Kesimpulan)  
-- Azka (Deskripsi Sistem & Lingkungan Pengujian)  
+- Azka (Deskripsi Sistem, Lingkungan Pengujian, UI Testing, dan Navigation Testing)  
 - Ale (Manual Testing & Test Case)  
 - Faqih (Responsiveness & Cross-Browser Testing)  
 - Andre (Automated Testing & Bug Report)
