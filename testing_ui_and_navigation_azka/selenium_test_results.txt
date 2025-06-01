@@ -1,0 +1,137 @@
+=== SELENIUM TEST RESULTS ===
+Test executed on: 2025-06-01 17:01:30
+Base URL: http://localhost:3000
+==================================================
+
+[2025-06-01 16:59:04] [INFO] === MEMULAI SELENIUM TESTING ===
+[2025-06-01 16:59:04] [INFO] Base URL: http://localhost:3000
+[2025-06-01 16:59:04] [INFO] Screen resolutions to test: [320]
+[2025-06-01 16:59:05] [SUCCESS] Chrome WebDriver initialized successfully
+[2025-06-01 16:59:05] [INFO] 
+============================================================
+[2025-06-01 16:59:05] [INFO] TESTING RESOLUSI: 320px
+[2025-06-01 16:59:05] [INFO] ============================================================
+[2025-06-01 16:59:06] [INFO] Testing pada resolusi: 320px
+[2025-06-01 16:59:09] [INFO] 
+=== TESTING HOME PAGE COMPONENTS (320px) ===
+[2025-06-01 16:59:12] [INFO] Navigasi ke halaman 'Home' (http://localhost:3000/)
+[2025-06-01 16:59:12] [ISSUE] !! ISU DITEMUKAN (320px) !! - Bagian: Home Page - Deskripsi: Judul halaman kosong atau tidak sesuai: 'React App'
+[2025-06-01 16:59:12] [INFO] Screenshot disimpan: issue_320px_Home_Page_1748771952.png
+[2025-06-01 16:59:12] [PASS] [OK] Elemen 'Navbar' terlihat.
+[2025-06-01 16:59:12] [PASS] [OK] Elemen 'Logo' ada di DOM.
+[2025-06-01 16:59:12] [PASS] [OK] Ditemukan 4 elemen 'Navigation Links'.
+[2025-06-01 16:59:12] [PASS] [OK] Elemen 'Home Link' ada di DOM.
+[2025-06-01 16:59:12] [PASS] [OK] Elemen 'Hero Section' terlihat.
+[2025-06-01 16:59:12] [PASS] [OK] Elemen 'Category Section' terlihat.
+[2025-06-01 16:59:12] [PASS] [OK] Elemen 'Core Features Section' terlihat.
+[2025-06-01 16:59:12] [PASS] [OK] Ditemukan 49 elemen 'Card Features'.
+[2025-06-01 16:59:12] [PASS] [OK] Elemen 'Alat Section' terlihat.
+[2025-06-01 16:59:12] [PASS] [OK] Elemen 'Launch Section' terlihat.
+[2025-06-01 16:59:12] [PASS] [OK] Elemen 'FAQ Section' terlihat.
+[2025-06-01 16:59:12] [PASS] [OK] Elemen 'Footer' terlihat.
+[2025-06-01 16:59:12] [PASS] [OK] Elemen 'Scroll to Top Button' ada di DOM.
+[2025-06-01 16:59:12] [INFO] 
+=== TESTING DASHBOARD PAGE COMPONENTS (320px) ===
+[2025-06-01 16:59:15] [INFO] Navigasi ke halaman 'Dashboard' (http://localhost:3000/dashboard)
+[2025-06-01 16:59:26] [FAIL] [GAGAL] Elemen 'Sidebar' tidak terlihat dalam 10 detik.
+[2025-06-01 16:59:26] [PASS] [OK] Elemen 'Sidebar Toggle Button' terlihat.
+[2025-06-01 16:59:26] [PASS] [OK] Elemen 'Main Content Area' terlihat.
+[2025-06-01 16:59:26] [PASS] [OK] Ditemukan 1 elemen 'Dashboard Sections/Charts'.
+[2025-06-01 16:59:26] [PASS] [OK] Ditemukan 2 elemen 'Station Links'.
+[2025-06-01 16:59:26] [PASS] [OK] Elemen 'Download Section' ada di DOM.
+[2025-06-01 16:59:26] [INFO] 
+=== TESTING KALIMANTAN PAGE COMPONENTS (320px) ===
+[2025-06-01 16:59:29] [INFO] Navigasi ke halaman 'Kalimantan' (http://localhost:3000/kalimantan)
+[2025-06-01 16:59:39] [FAIL] [GAGAL] Elemen 'Kalimantan Sidebar' tidak terlihat dalam 10 detik.
+[2025-06-01 16:59:39] [PASS] [OK] Elemen 'Kalimantan Sidebar Toggle' terlihat.
+[2025-06-01 16:59:39] [PASS] [OK] Elemen 'Kalimantan Main Content' terlihat.
+[2025-06-01 16:59:39] [PASS] [OK] Ditemukan 1 elemen 'Kalimantan Dashboard Sections'.
+[2025-06-01 16:59:39] [PASS] [OK] Ditemukan 2 elemen 'Kalimantan Station Links'.
+[2025-06-01 16:59:39] [PASS] [OK] Elemen 'Kalimantan Download Section' ada di DOM.
+[2025-06-01 16:59:39] [INFO] 
+=== TESTING SEBESI PAGE COMPONENTS (320px) ===
+[2025-06-01 16:59:42] [INFO] Navigasi ke halaman 'Sebesi' (http://localhost:3000/sebesi)
+[2025-06-01 16:59:52] [FAIL] [GAGAL] Elemen 'Sebesi Sidebar' tidak terlihat dalam 10 detik.
+[2025-06-01 16:59:52] [PASS] [OK] Elemen 'Sebesi Sidebar Toggle' terlihat.
+[2025-06-01 16:59:52] [PASS] [OK] Elemen 'Sebesi Main Content' terlihat.
+[2025-06-01 16:59:52] [PASS] [OK] Ditemukan 1 elemen 'Sebesi Dashboard Sections'.
+[2025-06-01 16:59:52] [PASS] [OK] Ditemukan 1 elemen 'Sebesi Station Links'.
+[2025-06-01 16:59:52] [PASS] [OK] Elemen 'Sebesi Download Section' ada di DOM.
+[2025-06-01 16:59:52] [INFO] 
+=== TESTING MAIN NAVIGATION (320px) ===
+[2025-06-01 16:59:55] [INFO] Navigasi ke halaman 'Home' (http://localhost:3000/)
+[2025-06-01 16:59:55] [INFO] Testing navigation to Home
+[2025-06-01 16:59:59] [INFO] Navigasi ke halaman 'Home' (http://localhost:3000/)
+[2025-06-01 16:59:59] [PASS] [OK] Successfully navigated to Home
+[2025-06-01 17:00:01] [INFO] Testing navigation to Dashboard
+[2025-06-01 17:00:04] [INFO] Navigasi ke halaman 'Dashboard' (http://localhost:3000/dashboard)
+[2025-06-01 17:00:04] [PASS] [OK] Successfully navigated to Dashboard
+[2025-06-01 17:00:06] [INFO] Testing navigation to Kalimantan
+[2025-06-01 17:00:09] [INFO] Navigasi ke halaman 'Kalimantan' (http://localhost:3000/kalimantan)
+[2025-06-01 17:00:09] [PASS] [OK] Successfully navigated to Kalimantan
+[2025-06-01 17:00:11] [INFO] Testing navigation to Sebesi
+[2025-06-01 17:00:14] [INFO] Navigasi ke halaman 'Sebesi' (http://localhost:3000/sebesi)
+[2025-06-01 17:00:14] [PASS] [OK] Successfully navigated to Sebesi
+[2025-06-01 17:00:16] [INFO] 
+=== TESTING DASHBOARD INTERNAL NAVIGATION (320px) ===
+[2025-06-01 17:00:19] [INFO] Navigasi ke halaman 'Dashboard' (http://localhost:3000/dashboard)
+[2025-06-01 17:00:19] [INFO] Testing Dashboard Station 1
+[2025-06-01 17:00:22] [INFO] Navigasi ke halaman 'Dashboard Station 1' (http://localhost:3000/dashboard/station1)
+[2025-06-01 17:00:24] [PASS] [OK] Elemen 'Dashboard Station 1 Content' ada di DOM.
+[2025-06-01 17:00:24] [PASS] [OK] Dashboard Station 1 loaded successfully
+[2025-06-01 17:00:24] [INFO] Testing Dashboard Station 2
+[2025-06-01 17:00:27] [INFO] Navigasi ke halaman 'Dashboard Station 2' (http://localhost:3000/dashboard/station2)
+[2025-06-01 17:00:29] [PASS] [OK] Elemen 'Dashboard Station 2 Content' ada di DOM.
+[2025-06-01 17:00:29] [PASS] [OK] Dashboard Station 2 loaded successfully
+[2025-06-01 17:00:29] [INFO] Testing Dashboard Download
+[2025-06-01 17:00:33] [INFO] Navigasi ke halaman 'Dashboard Download' (http://localhost:3000/dashboard/download)
+[2025-06-01 17:00:35] [PASS] [OK] Elemen 'Dashboard Download Content' ada di DOM.
+[2025-06-01 17:00:35] [PASS] [OK] Dashboard Download loaded successfully
+[2025-06-01 17:00:35] [INFO] 
+=== TESTING KALIMANTAN INTERNAL NAVIGATION (320px) ===
+[2025-06-01 17:00:38] [INFO] Navigasi ke halaman 'Kalimantan' (http://localhost:3000/kalimantan)
+[2025-06-01 17:00:38] [INFO] Testing Kalimantan Station 1
+[2025-06-01 17:00:41] [INFO] Navigasi ke halaman 'Kalimantan Station 1' (http://localhost:3000/kalimantan/station1)
+[2025-06-01 17:00:43] [PASS] [OK] Elemen 'Kalimantan Station 1 Content' ada di DOM.
+[2025-06-01 17:00:43] [PASS] [OK] Kalimantan Station 1 loaded successfully
+[2025-06-01 17:00:43] [INFO] Testing Kalimantan Station 2
+[2025-06-01 17:00:46] [INFO] Navigasi ke halaman 'Kalimantan Station 2' (http://localhost:3000/kalimantan/station2)
+[2025-06-01 17:00:48] [PASS] [OK] Elemen 'Kalimantan Station 2 Content' ada di DOM.
+[2025-06-01 17:00:48] [PASS] [OK] Kalimantan Station 2 loaded successfully
+[2025-06-01 17:00:48] [INFO] Testing Kalimantan Download
+[2025-06-01 17:00:51] [INFO] Navigasi ke halaman 'Kalimantan Download' (http://localhost:3000/kalimantan/download)
+[2025-06-01 17:00:53] [PASS] [OK] Elemen 'Kalimantan Download Content' ada di DOM.
+[2025-06-01 17:00:53] [PASS] [OK] Kalimantan Download loaded successfully
+[2025-06-01 17:00:53] [INFO] 
+=== TESTING SEBESI INTERNAL NAVIGATION (320px) ===
+[2025-06-01 17:00:56] [INFO] Navigasi ke halaman 'Sebesi' (http://localhost:3000/sebesi)
+[2025-06-01 17:00:56] [INFO] Testing Sebesi Station 1
+[2025-06-01 17:00:59] [INFO] Navigasi ke halaman 'Sebesi Station 1' (http://localhost:3000/sebesi/station1)
+[2025-06-01 17:01:01] [PASS] [OK] Elemen 'Sebesi Station 1 Content' ada di DOM.
+[2025-06-01 17:01:01] [PASS] [OK] Sebesi Station 1 loaded successfully
+[2025-06-01 17:01:01] [INFO] Testing Sebesi Station 2
+[2025-06-01 17:01:05] [INFO] Navigasi ke halaman 'Sebesi Station 2' (http://localhost:3000/sebesi/station2)
+[2025-06-01 17:01:07] [PASS] [OK] Elemen 'Sebesi Station 2 Content' ada di DOM.
+[2025-06-01 17:01:07] [PASS] [OK] Sebesi Station 2 loaded successfully
+[2025-06-01 17:01:07] [INFO] Testing Sebesi Download
+[2025-06-01 17:01:10] [INFO] Navigasi ke halaman 'Sebesi Download' (http://localhost:3000/sebesi/download)
+[2025-06-01 17:01:12] [PASS] [OK] Elemen 'Sebesi Download Content' ada di DOM.
+[2025-06-01 17:01:12] [PASS] [OK] Sebesi Download loaded successfully
+[2025-06-01 17:01:12] [INFO] 
+=== TESTING RESPONSIVE LAYOUT (320px) ===
+[2025-06-01 17:01:15] [INFO] Navigasi ke halaman 'Home' (http://localhost:3000/)
+[2025-06-01 17:01:15] [ISSUE] !! ISU DITEMUKAN (320px) !! - Bagian: Responsive Layout - Deskripsi: Horizontal scrollbar detected. Body width: 612px, Window width: 500px
+[2025-06-01 17:01:15] [INFO] Screenshot disimpan: issue_320px_Responsive_Layout_1748772075.png
+[2025-06-01 17:01:15] [PASS] [OK] Elemen 'Mobile Navbar Toggle' ada di DOM.
+[2025-06-01 17:01:15] [PASS] [OK] Mobile navbar toggle found at 320px
+[2025-06-01 17:01:18] [INFO] Navigasi ke halaman 'Responsive /dashboard' (http://localhost:3000/dashboard)
+[2025-06-01 17:01:18] [FAIL] [GAGAL] Elemen 'Sidebar in /dashboard' tidak ada di DOM.
+[2025-06-01 17:01:21] [INFO] Navigasi ke halaman 'Responsive /kalimantan' (http://localhost:3000/kalimantan)
+[2025-06-01 17:01:21] [FAIL] [GAGAL] Elemen 'Sidebar in /kalimantan' tidak ada di DOM.
+[2025-06-01 17:01:24] [INFO] Navigasi ke halaman 'Responsive /sebesi' (http://localhost:3000/sebesi)
+[2025-06-01 17:01:24] [FAIL] [GAGAL] Elemen 'Sidebar in /sebesi' tidak ada di DOM.
+[2025-06-01 17:01:24] [INFO] --- SELESAI TESTING RESOLUSI 320px ---
+
+[2025-06-01 17:01:24] [SUCCESS] === SEMUA TESTING SELESAI ===
+[2025-06-01 17:01:24] [INFO] Menutup browser...
+[2025-06-01 17:01:30] [INFO] Browser ditutup
