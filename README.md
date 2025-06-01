@@ -27,7 +27,7 @@ Dokumentasi ini berisi seluruh proses pengujian aplikasi Web IoT Monitoring Syst
 | Bagian                           | Penanggung Jawab | Link Dokumentasi / File          |
 |---------------------------------|------------------|---------------------------------|
 | Pendahuluan, Tujuan, Kesimpulan | Imam             | [Laporan Pendahuluan & Kesimpulan](LINK_DOC_IMAM) |
-| Deskripsi Sistem & Lingkungan   | Azka             | [Deskripsi Sistem](LINK_DOC_AZKA)                |
+| Deskripsi Sistem, Lingkungan Pengujian, UI Testing, dan Navigation Testing  | Azka             | [Deskripsi Sistem](LINK_DOC_AZKA)                |
 | Test Plan & Test Case Manual    | Ale              | [Test Case Manual](LINK_DOC_ALE)                  |
 | Responsiveness & Cross-Browser  | Faqih            | [Hasil Responsiveness](LINK_DOC_FAQIH)            |
 | Automated Testing & Bug Report  | Andre            | [Bug Report & Automasi](LINK_DOC_ANDRE)           |
